@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Recommendation</title>
+</head>
+<body>
+    <h1>Select User and Algorithm</h1>
+    <form action="/recommend" method="post">
+        User ID: <input type="text" name="user_id"><br>
+        Algorithm:
+        <select name="algorithm">
+            <option value="collaborative">Collaborative Filtering</option>
+            <option value="content-based">Content-Based Filtering</option>
+            <option value="hybrid">Hybrid Recommendation</option>
+        </select><br>
+        <input type="submit" value="Get Recommendations">
+    </form>
+</body>
+</html>

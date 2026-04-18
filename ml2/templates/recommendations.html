@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommendations</title>
+</head>
+<body>
+    <h1>Interacted Products</h1>
+    <ul>
+    {% for product in interacted_products %}
+        <li>{{ product.product_name }} ({{ product.source }})</li>
+    {% endfor %}
+    </ul>
+
+    <h1>Recommended Products</h1>
+        <table>
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Score</th>
+                <th>Source</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for product in recommended_products %}
+            <tr>
+                <td>{{ product.product_name }}</td>
+                <td>{{ product.score }}</td>
+                <td>{{ product.source }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

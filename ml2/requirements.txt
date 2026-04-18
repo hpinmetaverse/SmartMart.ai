@@ -1,0 +1,8 @@
+flask
+pandas
+torch
+torchvision
+torch-geometric
+sentence-transformers
+scikit-learn
+Pillow
