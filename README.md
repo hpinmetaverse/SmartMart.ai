@@ -1,5 +1,4 @@
 # SmartMart
-
 # Features:
 
 **AI-Powered Recommendation System**: A hybrid model combining collaborative filtering, content-based filtering, and context-aware recommendations to deliver personalized product suggestions based on user interactions and preferences.
