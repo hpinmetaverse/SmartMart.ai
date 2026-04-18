@@ -5,6 +5,9 @@ SmartMart is an AI-powered e-commerce platform focused on delivering personalize
 ---
 PPT-Link 
 :https://docs.google.com/presentation/d/1M928Zs4Zu6_W6SUnVWDiyo_nDSsROnb3_r0x3vYsPxI/edit?usp=sharing
+
+Live-Link:https://snap-60y2ar59w-harshvardhanchauhan776-gmailcoms-projects.vercel.app/
+
 ---
 ## Features
 
