@@ -183,13 +183,13 @@ function ProductSubCollectionsCircles({ collections }: CollectionsCardsProps) {
             />
           </div>
           <p className="text-black text-center mt-3 font-semibold">
-            {node.label === "Living Room"
+            {node.label === "Kids"
               ? "Kids"
-              : node.label === "Bedroom"
+              : node.label === "Jewellery"
               ? "Jewellery"
-              : node.label === "Kitchen"
+              : node.label === "Women"
               ? "Women"
-              : node.label === "Bathroom"
+              : node.label === "Mens"
               ? "Mens"
               : node.label}
               {/* {node.label} */}
@@ -209,13 +209,9 @@ function FeaturedProductsCards({ products }: FeaturedProductsCardsProps) {
     <section className="container mt-12">
       <div className="">
         <h2 className="font-semibold text-2xl md:text-3xl mb-1 md:mb-3">
-          Step into Style: Featured Shoe Collection
+          Step into Style
         </h2>
-        <p className="max-w-4xl text-sm md:text-md leading-[1.5] tracking-[-2%] mb-2">
-          Explore our curated selection of shoes at SmartMart. Discover the
-          perfect pair to elevate your style, with new arrivals daily. Share
-          your looks on Instagram and tag @SmartMartOfficialShoes
-        </p>
+        
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-12 py-5 overflow-auto">
